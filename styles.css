@@ -43,4 +43,43 @@ svg {
     
       
     }
+
+    @media screen and (max-width:800px) {
+      body{
+        transform: scale(0.9);
+      }
+    }
+        @media screen and (max-width:710px) {
+          body {
+            transform: scale(0.8);
+          }
+        }
+ @media screen and (max-width:640px) {
+   body {
+     transform: scale(0.7);
+   }
+ }
+ @media screen and (max-width:560px) {
+   body {
+     transform: scale(0.6);
+   }
+ }
+
+ @media screen and (max-width:480px) {
+   body {
+     transform: scale(0.5);
+   }
+ }
+
+ @media screen and (max-width:400px) {
+   body {
+     transform: scale(0.4);
+   }
+ }
+
+ @media screen and (max-width:320px) {
+   body {
+     transform: scale(0.3);
+   }
+ }
     
